@@ -1,7 +1,7 @@
 number = int(input())
 print(f'Следующие за числом {number} число: {number + 1}', 
       f'Для числа {number} предыдущие число: {number - 1}', 
-      sep = '\n')
+      sep= '\n')
       
       
       
