@@ -2,7 +2,8 @@ number = int(input())
 index_2 = number % 10
 index_1 = (number // 10) % 10
 index_0 = number // 100
-print (f'Сумма чисел = {index_2 + index_1 + index_0}')
+# ИСПОЛЬЗОВАТЬ везде: PEP 8 не рекомендует отделять скобки вызова от имени функции
+print(f'Сумма чисел = {index_2 + index_1 + index_0}')
 print(f'Произведения цифр = {index_2 * index_1 * index_0}')
 
 

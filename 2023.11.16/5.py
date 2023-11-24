@@ -1,8 +1,8 @@
 integer = int(input())
 fraction = input()
-result = integer + (float(str('0.'+ fraction)))
+result = integer + (float(str('0.' + fraction)))
 
-print(f'{result} миль = {result * 1.61 :.1f}')
+print(f'{result} миль = {result*1.61:.1f}')
 
 
 # 15
@@ -17,3 +17,4 @@ print(f'{result} миль = {result * 1.61 :.1f}')
 # 23
 # 234
 # 23.234 миль = 37.4
+

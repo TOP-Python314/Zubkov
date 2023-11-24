@@ -1,6 +1,6 @@
 minutes = int(input())
-print (f'{minutes} мин - это {minutes // 60 } часа {minutes % 60} минут')
-
+# ИСПОЛЬЗОВАТЬ везде: PEP 8 не рекомендует отделять скобки вызова от имени функции
+print(f'{minutes} мин - это {minutes // 60 } часа {minutes % 60} минут')
 
 
 # 255
@@ -8,3 +8,4 @@ print (f'{minutes} мин - это {minutes // 60 } часа {minutes % 60} ми
 
 # 150
 # 150 мин - это 2 часа 30 минут
+
