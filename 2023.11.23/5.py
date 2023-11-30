@@ -3,8 +3,9 @@ letter_1 = option_1[0]
 letter_2 = option_2[0]
 number_1 = int(option_1[1])
 number_2 = int(option_2[1])
-
-if letter_1 == letter_2 and number_1 != number_2 or letter_1 != letter_2 and number_1 == number_2:
+if letter_1 > 'h' or letter_2 > 'h' or number_1 > 8 or number_2 > 8:
+    print('не корректный ввод')
+elif letter_1 == letter_2 and number_1 != number_2 or letter_1 != letter_2 and number_1 == number_2:
     print('да')
 else:
     print('нет')
